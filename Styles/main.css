@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+body{
+    background-color: #0b2acc;
+    font-family: 'Poppins', sans-serif;
+    color: azure;
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+
+
+}
+header{
+    background: linear-gradient(135deg, #6866dc 0%, #4f4de1 100%); /* Degradado moderno */
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+/*Los textos del header*/
+header h1{
+    color: white;
+    margin-bottom: 0.5rem;
+}
+/*Este es mi menu de navegacion*/
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 1.5rem; /* Espacio entre enlaces */
+    margin-top: 1.5rem;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+#proyectos{
+    display: flex;
+    max-width : 100%;
+    margin: 3rem auto;
+    padding: 0 2rem;
+}
+#proyectos h2{
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+
+}
+.proyecto-card{
+    background: #121be3;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(9, 7, 7, 0.98);
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.proyecto-card:hover{
+    transform:translateY(-10px);
+    box-shadow: 0 5px 15px rgba(9, 7, 7, 0.98);
+}
